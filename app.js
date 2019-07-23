@@ -28,5 +28,6 @@ fs.readFile(filename, 'utf8', function(err, data){
           console.log(error);
           throw error;
       }
+      process.exit()
     });
 });
